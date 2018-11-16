@@ -1,35 +1,35 @@
 'use strict';
 
-let first = 'Понедельник';
-let second = 'Вторник';
-let third = 'Среда';
-let fourth = 'Четверг';
-let fifth = 'Пятница';
-let sixth = 'Суббота';
-let seventh = 'Воскресенье';
-let result = prompt('Number of day', 1);
+let первый = 'Понедельник';
+let второй = 'Вторник';
+let третий = 'Среда';
+let четвертый = 'Четверг';
+let пятый = 'Пятница';
+let шестой = 'Суббота';
+let седьмой = 'Воскресенье';
+let daynum = prompt('Номер дня', 1);
 
-switch (result){
+switch (daynum){
     case '1':
-        alert(first);
+        alert(первый);
         break;
     case '2':
-        alert(second);
+        alert(второй);
         break;
     case '3':
-        alert(third);
+        alert(третий);
         break;
     case '4':
-        alert(fourth);
+        alert(четвертый);
         break;
     case '5':
-        alert(fifth);
+        alert(пятый);
         break;
     case '6':
-        alert(sixth);
+        alert(шестой);
         break;
     case '7':
-        alert(seventh);
+        alert(седьмой);
         break;
     default:alert("Такого дня недели не существует!");
 }
